@@ -30,7 +30,7 @@
     margin: 5px;
     text-align: center;
     width: 200px;
-    height: 400px;
+    /* height: 500px; */
 
     
     /* padding-top: 2px; */
@@ -47,4 +47,10 @@
 .res-logo{
     
    width: 190px; 
+}
+.filter-btn{
+    margin: 10px;
+    padding: 5px;
+    cursor: pointer;
+    border: 1px solid black;
 }
