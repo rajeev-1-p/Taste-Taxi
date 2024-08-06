@@ -1,0 +1,32 @@
+{
+  "name": "food_ordering_app",
+  "version": "1.0.0",
+  "description": "its a food ordering website with the search features  ",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajeev-1-p/Dont-REACT.git"
+  },
+  "author": "Rajeev jha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajeev-1-p/Dont-REACT/issues"
+  },
+  "homepage": "https://github.com/rajeev-1-p/Dont-REACT#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "browserslist": [
+    "last 4 versions"
+  ]
+}

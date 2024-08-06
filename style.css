@@ -1,0 +1,50 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.logo{
+    width: 200px;
+}
+.nav-items > ul {
+    display:flex;
+    list-style-type: none;
+    font-size: 20px;
+
+}
+.nav-items > ul > li:hover{
+    border: 2px solid rgb(208, 70, 93) ;
+}
+
+.nav-items > ul > li {
+    padding: 10px;
+    margin: 10px;
+}
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.res-card{
+    margin: 5px;
+    text-align: center;
+    width: 200px;
+    height: 400px;
+
+    
+    /* padding-top: 2px; */
+}
+.res-card:hover {
+    cursor: pointer;
+    border: 1px solid rgb(128, 237, 12);
+}
+
+.search{
+    padding: 10px;
+}
+
+.res-logo{
+    
+   width: 190px; 
+}
