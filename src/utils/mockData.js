@@ -1,6 +1,6 @@
 let resList =  [
     {
-    "info": {
+    "data": {
     "id": "800166",
     "name": "India Sweet House",
     "cloudinaryImageId": "a30547693c82a6fe583c3fedae6f4c6c",
@@ -69,7 +69,7 @@ let resList =  [
     }
     },
     {
-    "info": {
+    "data": {
     "id": "66590",
     "name": "Havmor Havfunn Ice Cream",
     "cloudinaryImageId": "49845b494b1e637209b7bd1c7ca184ad",
@@ -155,7 +155,7 @@ let resList =  [
     }
     },
     {
-    "info": {
+    "data": {
     "id": "432976",
     "name": "KFC",
     "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/4/17/9869efb0-ef0e-41eb-bffa-9d6e03eef55e_432976.JPG",
@@ -223,7 +223,7 @@ let resList =  [
     }
     },
     {
-    "info": {
+    "data": {
     "id": "23846",
     "name": "Domino's Pizza",
     "cloudinaryImageId": "d0450ce1a6ba19ea60cd724471ed54a8",
@@ -312,7 +312,7 @@ let resList =  [
     }
     },
     {
-    "info": {
+    "data": {
     "id": "41904",
     "name": "Iyengars Bakery",
     "cloudinaryImageId": "iykcd4aqw8degrqe6mwh",
@@ -401,7 +401,7 @@ let resList =  [
     }
     },
     {
-    "info": {
+    "data": {
     "id": "22192",
     "name": "Srinivasa Brahmins Bakery",
     "cloudinaryImageId": "h8scdayrwunwig3rtiyq",
@@ -465,7 +465,7 @@ let resList =  [
     }
     },
     {
-    "info": {
+    "data": {
     "id": "719639",
     "name": "New Udupi Upahar",
     "cloudinaryImageId": "b14cd9fc40129fcfb97aa7e621719d07",
@@ -534,7 +534,7 @@ let resList =  [
     }
     },
     {
-    "info": {
+    "data": {
     "id": "56428",
     "name": "Puliyogare Point",
     "cloudinaryImageId": "wet9zrjusmdtkk16jlrz",
@@ -619,7 +619,7 @@ let resList =  [
     }
     },
     {
-    "info": {
+    "data": {
     "id": "29672",
     "name": "Natural Ice Cream",
     "cloudinaryImageId": "f20oitocgeivjijnanmi",
@@ -715,7 +715,7 @@ let resList =  [
     }
     },
     {
-    "info": {
+    "data": {
     "id": "146490",
     "name": "Karnataka Bhel House",
     "cloudinaryImageId": "vojof3tfxr0i3kwpsp3e",
@@ -797,7 +797,7 @@ let resList =  [
     }
     },
     {
-    "info": {
+    "data": {
     "id": "329938",
     "name": "Churmur Chaat Co",
     "cloudinaryImageId": "womemvkfstu7zwrfulwe",
@@ -890,7 +890,7 @@ let resList =  [
     }
     },
     {
-    "info": {
+    "data": {
     "id": "47493",
     "name": "Hari Super Sandwich (3rd Block)",
     "cloudinaryImageId": "ml1ituszk5qurjia3r9h",
@@ -982,7 +982,7 @@ let resList =  [
     }
     },
     {
-    "info": {
+    "data": {
     "id": "528523",
     "name": "New Ambur Biryani Point",
     "cloudinaryImageId": "2b6b93195cd8e50f9e393692cf91ed7d",
@@ -1056,7 +1056,7 @@ let resList =  [
     }
     },
     {
-    "info": {
+    "data": {
     "id": "70008",
     "name": "Sangam Sweets",
     "cloudinaryImageId": "bti5cqzjlftzrw0uml1k",
@@ -1158,7 +1158,7 @@ let resList =  [
     }
     },
     {
-    "info": {
+    "data": {
     "id": "85320",
     "name": "By 2 Coffee",
     "cloudinaryImageId": "pzyccoxkjhlvwtiv5hsq",
@@ -1238,7 +1238,7 @@ let resList =  [
     }
     },
     {
-    "info": {
+    "data": {
     "id": "469151",
     "name": "Kanti Bakes And Flakes",
     "cloudinaryImageId": "j4yuk6yvb4sx1vqwewqt",

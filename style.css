@@ -54,3 +54,6 @@
     cursor: pointer;
     border: 1px solid black;
 }
+.filter-btn:hover{
+    border: 2px solid greenyellow;
+}
