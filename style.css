@@ -57,3 +57,26 @@
 .filter-btn:hover{
     border: 2px solid greenyellow;
 }
+
+
+
+.footer-logo{
+    height: 200px;
+    width: 200px;
+}
+.footer-container{
+    background-color: rgb(7, 7, 7);
+    height: 400px;
+}
+
+.quick-links{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.social-links{
+    text-align: center;
+    height: 200px;
+    background-color: azure;
+}
