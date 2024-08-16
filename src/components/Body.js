@@ -6,8 +6,13 @@ import Shimmer from "./Shimmer";
 const Body = () => {
   const [listOfRestaurents, setListOfRestaurents] = useState();
 
+  const [searchText , setsearchText] = useState ("");
+
+  console.log("body rendered");
+
+
   useEffect(() => {
-    fetchData();
+     fetchData();
   }, []);
 
   const fetchData = async () => {
@@ -22,16 +27,32 @@ const Body = () => {
     );
   };
 
-  if (!listOfRestaurents || listOfRestaurents.length === 0) {
-    return <Shimmer />; // Display Shimmer while loading
-  }
+  // if (!listOfRestaurents || listOfRestaurents.length === 0) {
+  //   return <Shimmer />; // Display Shimmer while loading
+  // }
 
   // setListOfRestraunt(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
   // setFilteredRestaurant(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
 
-  return (
+  return !listOfRestaurents || listOfRestaurents.length === 0 ? <Shimmer />  :(
     <div className="body">
       <div className="filter">
+        <div className="search">
+          <input type="text" className="search-box" value={searchText} onChange={(e)=> {
+            setsearchText(e.target.value)
+
+
+          }} />
+          <button onClick={()=> {
+            console.log(searchText);
+            const filterdRestraunt  = listOfRestaurents.filter(
+              (res)=> res.info.name.toLowerCase().includes(searchText.toLowerCase())
+            )
+            setListOfRestaurents(filterdRestraunt)
+ 
+          }}>Search</button>
+
+        </div> 
         <button
           className="filter-btn"
           onClick={() => {
