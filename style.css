@@ -23,20 +23,20 @@
 
 }
 .nav-items > ul > li:hover{
-    border: 2px solid rgb(208, 70, 93) ;
+    color: black;
 }
 
 .nav-items > ul > li {
     padding: 10px;
     margin: 10px;
 }
-.res-container{
+.ReastaurantContainer{
     display: flex;
     flex-wrap: wrap;
 }
 
 .res-card{
-    margin: 0px;
+    margin: 10px;
     text-align: center;
     width: 200px;
     padding: 5px;
@@ -55,14 +55,19 @@
 }
 
 .res-logo{
-    
+    height: 200px;
    width: 190px; 
+   border: 2px solid rgb(170, 152, 187);
 }
 .filter-btn{
-    margin: 10px;
+    margin: 15px;
     padding: 5px;
     cursor: pointer;
-    border: 1px solid black;
+    /* border: 1px solid rgb(27, 20, 20); */
+    display: flex;
+    justify-content: space-around;
+    
+    /* flex-wrap: wrap; */
 }
 .filter-btn:hover{
     border: 2px solid greenyellow;
@@ -75,20 +80,25 @@
     width: 200px;
 }
 .footer-container{
-    background-color: rgb(7, 7, 7);
+    background-color: white;
     height: 400px;
 }
 
 .quick-links{
     display: flex;
     justify-content: space-around;
-    color: white;
+    color: rgb(8, 8, 8);
 }
 
 .social-links{
+    /* justify-content: space-between; */
     text-align: center;
     height: 200px;
-    background-color: azure;
+    background-color: whitesmoke;
+}
+
+.social-links > a {
+    justify-content: space-between;
 }
 
 .shimmer-card{
@@ -107,3 +117,50 @@
 .filter{
     display: flex;
 }
+
+
+
+
+/* src/components/Footer.css */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer .social-links {
+    margin-bottom: 10px;
+  }
+  
+  .footer .social-links a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: color 0.3s;
+  }
+  
+  .footer .social-links a:hover {
+    color: #04a0d9; /* Customize hover color */
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .links{
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+  }
+
+  .links-icon{
+    height: 40px;
+    width: 40px;
+    color: black ;
+  }
+  .error-text{
+    color: rgb(47, 6, 89);
+  }
